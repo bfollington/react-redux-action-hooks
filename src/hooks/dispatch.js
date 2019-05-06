@@ -19,5 +19,5 @@ export const useBoundActions = (actions, deps) => {
       .forEach(entry => output[entry[0]] = entry[1])
     
     return output
-  }, [deps])  
+  }, deps)  
 }
